@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #b30000;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        background-color: #ffae17;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 50vh;
+        z-index: 1;
+      }
+      h2 {
+        color: rgb(26, 26, 110);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p {
+        color: rgb(26, 26, 110);
+        text-align: justify;
+      }
+      .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <video class="video-background" autoplay muted loop>
+      <source src="/video/background video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="card">
+      <h2><i class="fa-solid fa-user"></i> About us</h2>
+      <p>
+        Trinity International College hosts an annual SciTech program where
+        students from our college and other colleges come together to showcase
+        their innovative projects. This event provides a platform for young
+        minds to present their ideas, collaborate with peers, and gain valuable
+        feedback from industry experts. Each year, the SciTech program
+        highlights the creativity and technical skills of students, fostering a
+        spirit of innovation and excellence. The event also includes workshops,
+        guest lectures, and panel discussions on the latest trends in science
+        and technology. Participants have the opportunity to network with
+        professionals, explore career opportunities, and enhance their knowledge
+        in various fields. We believe that the SciTech program not only
+        celebrates the achievements of our students but also inspires them to
+        pursue their passions and contribute to the advancement of science and
+        technology.
+      </p>
+    </div>
+  </body>
+</html>
